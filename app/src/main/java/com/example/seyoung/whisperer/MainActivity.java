@@ -13,6 +13,38 @@ public class MainActivity extends AppCompatActivity {
     public static final int B2 = -2;
     public static final int B3 = -3;
 
+    //벽
+    public static final int block = 0;
+
+    //출구
+    public static final int exit_1 = 1;
+    public static final int exit_2 = 2;
+    public static final int exit_3 = 3;
+    public static final int exit_4 = 4;
+    public static final int exit_5 = 5;
+    public static final int exit_6 = 6;
+
+    //엘레베이터
+    public static final int elevator_1 = 7;
+    public static final int elevator_2 = 8;
+    public static final int elevator_3 = 9 ;
+    public static final int elevator_4 = 10;
+
+    //계단
+    public static final int stair_1 = 11;
+    public static final int stair_2 = 12;
+
+    //화장실
+    public static final int men_bathroom = 13;
+    public static final int women_bathroom = 14;
+
+    //개찰구
+    public static final int ticke_barrier1 = 15;
+    public static final int ticke_barrier2 = 16;
+
+
+
+
     SubWayMap map_underGround_1;
     SubWayMap map_underGround_2;
     SubWayMap map_underGround_3;
@@ -124,4 +156,27 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    //노드가 가는 경로 체크하는 함수
+    public boolean user_CheckPosition(List<Node> path,int user_row,int user_col){
+        boolean check_Position = false;
+        for(Node node : path) {
+            if (node.getRow() - 2 >= 0 &&
+                    node.getCol() - 2 >= 0 &&
+                    node.getRow() + 2 <= map_underGround_1.underGround_rows &&
+                    node.getCol() + 2 <= map_underGround_1.underGround_cols) {
+                if (node.getRow() - 2 <= user_row ||
+                        user_row <= node.getRow() + 2 ||
+                        node.getCol() - 2 <= user_col ||
+                        user_col <= node.getCol() + 2) {
+                    check_Position = true;
+                }
+            }
+        }
+        if(check_Position){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 }

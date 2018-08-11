@@ -35,7 +35,7 @@ public class Navigation {
         setInitialNode(initialNode);
         setFinalNode(finalNode);
 
-        //지도 그리기
+        //지도 설정하기
         this.searchArea = new Node[rows][cols];
 
         //층 수 삽입
@@ -77,6 +77,13 @@ public class Navigation {
             int row = blocksArray[i][0];
             int col = blocksArray[i][1];
             setBlock(row, col);
+        }
+    }
+
+    //지도에 있는 정보
+    public void setInformations(int[][] infoArray){
+        for(int i=0;i< infoArray.length; i++){
+
         }
     }
 
@@ -204,6 +211,9 @@ public class Navigation {
     private void setBlock(int row, int col) {
         this.searchArea[row][col].setBlock(true);
     }
+
+    //노드 정보 설정
+    private void setInformations(int row,int col,int information) { this.searchArea[row][col].setInforamtion(information);}
 
     public Node getInitialNode() {
         return initialNode;
