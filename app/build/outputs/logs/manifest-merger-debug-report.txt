@@ -1,151 +1,278 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:2:1-21:12
-MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc01.aar\769a0b4bb46484a0d80ab43db65854db\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\2df7e862a790231ad90b8b006b029093\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc01.aar\735155efc8c98ab616e5d0d5b9d1a118\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc01.aar\7ca8964411696c5058ce2529d5bae15b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc01.aar\1e22ed132d0b7ef634fa49119fdf4c40\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc01.aar\0ea93fff1b91bcf1cdccbb4e1de15a53\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc01.aar\dad1e6e56c1656a473f3e20e91eca09c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc01.aar\1f05c21ca328b3c048dd9ff33a11fa2d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc01.aar\d6620fa8a30adc476a7e395d70012ad7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc01.aar\38c7346bb4544088b15006b33ef41a1d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc01.aar\1bad6b6b5154d24225340dd2c11edd59\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc01.aar\a48651625e4995beed84f22989419859\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc01.aar\65cc9d41c795bd4644c7e564344930e9\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc01.aar\4c307a34d5b2b98ef4d9aedfb06b5e4a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc01.aar\b2b89fc00bc4e2e5302504416756ab60\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\8e9975aad7af894a0637c07669754efe\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\647ae978e864f1186d233db812831e07\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc01.aar\ce4ed317c53c1eacc7fcdca505f04ad3\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\057e7b0f1b4aa009d7d517d047fb1f2b\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc01.aar\1abc69aae4aea14029cee80438ccc884\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc01.aar\86eded7c9076d90ccafaa72ec3b99ef6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc01.aar\0f5c4dd04daecc029b1c75e266db2f61\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\5c098733701eb0d4a9a6b2bd6f1f4dab\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\f368ce4c91b135b0bc90849741cfd33b\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e0acf45e286671669d2f8f75ee1ed365\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc01.aar\bb196ec9d8db97f6e5ce1db16bf5fcd3\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:2:1-53:12
+MERGED from [com.kakao.sdk:newtone:6.0.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\newtone-6.0.1.aar\a240b63928fb2934f4277904024f34f1\AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc01.aar\1bc728c8e06d5f4e6d28a965f89261e1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\6fd48d85da0a047bc6ad7dc2cfd6ed5b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:2:1-36:12
+MERGED from [com.kakao.sdk:newtone.core:1.1.1.OpenApi] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\newtone.core-1.1.1.OpenApi.aar\21cf76453fb39f8181044e456e0a49f8\AndroidManifest.xml:2:1-10:12
+MERGED from [com.kakao.sdk:network:1.1.36] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\network-1.1.36.aar\d8f93b764edefcf0a96ede8fc1597f94\AndroidManifest.xml:2:1-12:12
+MERGED from [com.kakao.sdk:util:1.2.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\util-1.2.2.aar\c75c0803c44380a05e241344f92fb6bf\AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc01.aar\b9599d379b897da54ed9057a7d3bdf04\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc01.aar\12ac6939aa571ff8e366cab5adcb6786\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc01.aar\b65ca106fc8015a3683d19755a07ad5c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc01.aar\98dbd0feff8a54ca467ad016cdf062eb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc01.aar\981eeee9aedf50049afb2c87597a5661\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc01.aar\005a1b9590c59792ab81c1a84dfbee57\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc01.aar\9d7eb3e115b7de1d75dad9b9783413ce\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc01.aar\a3a3b69421800ff47f37675428fea129\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc01.aar\904b0e4a112ab1332f8551386f311d26\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc01.aar\525237dac82756239a5c4531fe7e37e3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc01.aar\272eec58e3cf30e1c1dd026da9c0c7ed\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc01.aar\1cbf1dda92328f762304ea7c4791412b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc01.aar\a4e592dbd2fd7241a8a2581090cb95cc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\f8b0c4ccf3d4488022fdc6e53d83bee6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\22cd9396a3574e187ab2b5e4ba1b4c82\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc01.aar\3948b57c5771de1f00644af46a9690b9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7b407a97d0cc447fb5a9ad02105370ac\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc01.aar\c9b725fc016369588d56330e3ec991d2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc01.aar\e9a323758a510e71949b0b70f819c88f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc01.aar\e3128a883db348a4814f0bd2486e87c5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\9cc973c3cf9559bdbdf7c10e7cde61e0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\b03a143018a8656439eefe4eb7b68582\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fd158bc9f1526da54bde8469d7ff14b9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc01.aar\ab13b52f52d81a2ce135b50de8b6a477\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:2:1-53:12
+INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:2:1-53:12
 	package
-		ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:3:5-44
-		INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml
+		INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:2:1-21:12
-		INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml
+		INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:2:1-53:12
+		INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:2:1-21:12
-		INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml
+		INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:2:1-53:12
+		INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:5:5-68
+MERGED from [com.kakao.sdk:newtone:6.0.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\newtone-6.0.1.aar\a240b63928fb2934f4277904024f34f1\AndroidManifest.xml:14:5-68
+MERGED from [com.kakao.sdk:newtone:6.0.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\newtone-6.0.1.aar\a240b63928fb2934f4277904024f34f1\AndroidManifest.xml:14:5-68
+	android:name
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:5:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:6:5-74
+	android:name
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:6:22-71
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:7:5-76
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:14:5-76
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:7:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:8:5-76
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:13:5-76
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:8:22-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:9:5-81
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:15:5-81
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.INTERNET
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:10:5-67
+MERGED from [com.kakao.sdk:newtone:6.0.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\newtone-6.0.1.aar\a240b63928fb2934f4277904024f34f1\AndroidManifest.xml:11:5-67
+MERGED from [com.kakao.sdk:newtone:6.0.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\newtone-6.0.1.aar\a240b63928fb2934f4277904024f34f1\AndroidManifest.xml:11:5-67
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:12:5-67
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:11:5-71
+MERGED from [com.kakao.sdk:newtone:6.0.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\newtone-6.0.1.aar\a240b63928fb2934f4277904024f34f1\AndroidManifest.xml:12:5-71
+MERGED from [com.kakao.sdk:newtone:6.0.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\newtone-6.0.1.aar\a240b63928fb2934f4277904024f34f1\AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:11:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:13:5-79
+MERGED from [com.kakao.sdk:newtone:6.0.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\newtone-6.0.1.aar\a240b63928fb2934f4277904024f34f1\AndroidManifest.xml:13:5-79
+MERGED from [com.kakao.sdk:newtone:6.0.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\newtone-6.0.1.aar\a240b63928fb2934f4277904024f34f1\AndroidManifest.xml:13:5-79
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:11:5-79
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:13:22-76
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:15:5-16:35
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:17:5-19:36
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:16:9-32
+	android:name
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:15:19-71
+uses-feature#android.hardware.sensor.compass
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:17:5-18:35
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:20:5-22:36
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:18:9-32
+	android:name
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:17:19-65
+uses-feature#android.hardware.sensor.gyroscope
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:19:5-20:35
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:23:5-25:36
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:20:9-32
+	android:name
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:19:19-67
+uses-feature#android.hardware.wifi
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:21:5-22:35
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:26:5-28:35
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:26:5-28:35
+	android:required
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:22:9-32
+	android:name
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:21:19-55
 application
-ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:5:5-19:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\2df7e862a790231ad90b8b006b029093\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\2df7e862a790231ad90b8b006b029093\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\8e9975aad7af894a0637c07669754efe\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\8e9975aad7af894a0637c07669754efe\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\647ae978e864f1186d233db812831e07\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\647ae978e864f1186d233db812831e07\AndroidManifest.xml:22:5-23:19
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:24:5-51:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\6fd48d85da0a047bc6ad7dc2cfd6ed5b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\6fd48d85da0a047bc6ad7dc2cfd6ed5b\AndroidManifest.xml:9:5-20
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:30:5-34:19
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:30:5-34:19
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\f8b0c4ccf3d4488022fdc6e53d83bee6\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\f8b0c4ccf3d4488022fdc6e53d83bee6\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\22cd9396a3574e187ab2b5e4ba1b4c82\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\22cd9396a3574e187ab2b5e4ba1b4c82\AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\8e9975aad7af894a0637c07669754efe\AndroidManifest.xml:22:18-91
+		ADDED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\f8b0c4ccf3d4488022fdc6e53d83bee6\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:29:9-35
 	android:label
-		ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:27:9-41
 	android:roundIcon
-		ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:28:9-54
 	android:icon
-		ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:26:9-43
 	android:allowBackup
-		ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:25:9-35
 	android:theme
-		ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.example.seyoung.whisperer.MainActivity
-ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:12:9-18:20
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:30:9-40
+activity#com.example.gjwls.whisperer.MainActivity
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:32:9-38:20
 	android:name
-		ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:32:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:33:13-37:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:34:17-69
 	android:name
-		ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:34:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:36:27-74
+meta-data#com.indooratlas.android.sdk.API_KEY
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:40:9-42:67
+	android:value
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:42:13-65
+	android:name
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:41:13-63
+meta-data#com.indooratlas.android.sdk.API_SECRET
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:43:9-45:159
+	android:value
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:45:13-157
+	android:name
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:44:13-66
+meta-data#com.kakao.sdk.AppKey
+ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:47:9-49:53
+	android:value
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:49:13-50
+	android:name
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml:48:13-48
 uses-sdk
-INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc01.aar\769a0b4bb46484a0d80ab43db65854db\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc01.aar\769a0b4bb46484a0d80ab43db65854db\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\2df7e862a790231ad90b8b006b029093\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\2df7e862a790231ad90b8b006b029093\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc01.aar\735155efc8c98ab616e5d0d5b9d1a118\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc01.aar\735155efc8c98ab616e5d0d5b9d1a118\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc01.aar\7ca8964411696c5058ce2529d5bae15b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc01.aar\7ca8964411696c5058ce2529d5bae15b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc01.aar\1e22ed132d0b7ef634fa49119fdf4c40\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc01.aar\1e22ed132d0b7ef634fa49119fdf4c40\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc01.aar\0ea93fff1b91bcf1cdccbb4e1de15a53\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc01.aar\0ea93fff1b91bcf1cdccbb4e1de15a53\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc01.aar\dad1e6e56c1656a473f3e20e91eca09c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc01.aar\dad1e6e56c1656a473f3e20e91eca09c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc01.aar\1f05c21ca328b3c048dd9ff33a11fa2d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc01.aar\1f05c21ca328b3c048dd9ff33a11fa2d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc01.aar\d6620fa8a30adc476a7e395d70012ad7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc01.aar\d6620fa8a30adc476a7e395d70012ad7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc01.aar\38c7346bb4544088b15006b33ef41a1d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc01.aar\38c7346bb4544088b15006b33ef41a1d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc01.aar\1bad6b6b5154d24225340dd2c11edd59\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc01.aar\1bad6b6b5154d24225340dd2c11edd59\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc01.aar\a48651625e4995beed84f22989419859\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc01.aar\a48651625e4995beed84f22989419859\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc01.aar\65cc9d41c795bd4644c7e564344930e9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc01.aar\65cc9d41c795bd4644c7e564344930e9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc01.aar\4c307a34d5b2b98ef4d9aedfb06b5e4a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc01.aar\4c307a34d5b2b98ef4d9aedfb06b5e4a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc01.aar\b2b89fc00bc4e2e5302504416756ab60\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc01.aar\b2b89fc00bc4e2e5302504416756ab60\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\8e9975aad7af894a0637c07669754efe\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\8e9975aad7af894a0637c07669754efe\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\647ae978e864f1186d233db812831e07\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\647ae978e864f1186d233db812831e07\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc01.aar\ce4ed317c53c1eacc7fcdca505f04ad3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc01.aar\ce4ed317c53c1eacc7fcdca505f04ad3\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\057e7b0f1b4aa009d7d517d047fb1f2b\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\057e7b0f1b4aa009d7d517d047fb1f2b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc01.aar\1abc69aae4aea14029cee80438ccc884\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc01.aar\1abc69aae4aea14029cee80438ccc884\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc01.aar\86eded7c9076d90ccafaa72ec3b99ef6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc01.aar\86eded7c9076d90ccafaa72ec3b99ef6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc01.aar\0f5c4dd04daecc029b1c75e266db2f61\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc01.aar\0f5c4dd04daecc029b1c75e266db2f61\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\5c098733701eb0d4a9a6b2bd6f1f4dab\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\5c098733701eb0d4a9a6b2bd6f1f4dab\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\f368ce4c91b135b0bc90849741cfd33b\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\f368ce4c91b135b0bc90849741cfd33b\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e0acf45e286671669d2f8f75ee1ed365\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e0acf45e286671669d2f8f75ee1ed365\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc01.aar\bb196ec9d8db97f6e5ce1db16bf5fcd3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\Seyoung\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc01.aar\bb196ec9d8db97f6e5ce1db16bf5fcd3\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml
+INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml
+INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml
+MERGED from [com.kakao.sdk:newtone:6.0.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\newtone-6.0.1.aar\a240b63928fb2934f4277904024f34f1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:newtone:6.0.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\newtone-6.0.1.aar\a240b63928fb2934f4277904024f34f1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc01.aar\1bc728c8e06d5f4e6d28a965f89261e1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc01.aar\1bc728c8e06d5f4e6d28a965f89261e1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\6fd48d85da0a047bc6ad7dc2cfd6ed5b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\6fd48d85da0a047bc6ad7dc2cfd6ed5b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:7:5-9:41
+MERGED from [com.kakao.sdk:newtone.core:1.1.1.OpenApi] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\newtone.core-1.1.1.OpenApi.aar\21cf76453fb39f8181044e456e0a49f8\AndroidManifest.xml:6:5-8:41
+MERGED from [com.kakao.sdk:newtone.core:1.1.1.OpenApi] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\newtone.core-1.1.1.OpenApi.aar\21cf76453fb39f8181044e456e0a49f8\AndroidManifest.xml:6:5-8:41
+MERGED from [com.kakao.sdk:network:1.1.36] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\network-1.1.36.aar\d8f93b764edefcf0a96ede8fc1597f94\AndroidManifest.xml:8:5-10:41
+MERGED from [com.kakao.sdk:network:1.1.36] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\network-1.1.36.aar\d8f93b764edefcf0a96ede8fc1597f94\AndroidManifest.xml:8:5-10:41
+MERGED from [com.kakao.sdk:util:1.2.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\util-1.2.2.aar\c75c0803c44380a05e241344f92fb6bf\AndroidManifest.xml:11:5-13:41
+MERGED from [com.kakao.sdk:util:1.2.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\util-1.2.2.aar\c75c0803c44380a05e241344f92fb6bf\AndroidManifest.xml:11:5-13:41
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc01.aar\b9599d379b897da54ed9057a7d3bdf04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc01.aar\b9599d379b897da54ed9057a7d3bdf04\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc01.aar\12ac6939aa571ff8e366cab5adcb6786\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc01.aar\12ac6939aa571ff8e366cab5adcb6786\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc01.aar\b65ca106fc8015a3683d19755a07ad5c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc01.aar\b65ca106fc8015a3683d19755a07ad5c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc01.aar\98dbd0feff8a54ca467ad016cdf062eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc01.aar\98dbd0feff8a54ca467ad016cdf062eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc01.aar\981eeee9aedf50049afb2c87597a5661\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc01.aar\981eeee9aedf50049afb2c87597a5661\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc01.aar\005a1b9590c59792ab81c1a84dfbee57\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc01.aar\005a1b9590c59792ab81c1a84dfbee57\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc01.aar\9d7eb3e115b7de1d75dad9b9783413ce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc01.aar\9d7eb3e115b7de1d75dad9b9783413ce\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc01.aar\a3a3b69421800ff47f37675428fea129\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc01.aar\a3a3b69421800ff47f37675428fea129\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc01.aar\904b0e4a112ab1332f8551386f311d26\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc01.aar\904b0e4a112ab1332f8551386f311d26\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc01.aar\525237dac82756239a5c4531fe7e37e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc01.aar\525237dac82756239a5c4531fe7e37e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc01.aar\272eec58e3cf30e1c1dd026da9c0c7ed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc01.aar\272eec58e3cf30e1c1dd026da9c0c7ed\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc01.aar\1cbf1dda92328f762304ea7c4791412b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc01.aar\1cbf1dda92328f762304ea7c4791412b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc01.aar\a4e592dbd2fd7241a8a2581090cb95cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc01.aar\a4e592dbd2fd7241a8a2581090cb95cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\f8b0c4ccf3d4488022fdc6e53d83bee6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc01.aar\f8b0c4ccf3d4488022fdc6e53d83bee6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\22cd9396a3574e187ab2b5e4ba1b4c82\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc01.aar\22cd9396a3574e187ab2b5e4ba1b4c82\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc01.aar\3948b57c5771de1f00644af46a9690b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc01.aar\3948b57c5771de1f00644af46a9690b9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7b407a97d0cc447fb5a9ad02105370ac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7b407a97d0cc447fb5a9ad02105370ac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc01.aar\c9b725fc016369588d56330e3ec991d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc01.aar\c9b725fc016369588d56330e3ec991d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc01.aar\e9a323758a510e71949b0b70f819c88f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc01.aar\e9a323758a510e71949b0b70f819c88f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc01.aar\e3128a883db348a4814f0bd2486e87c5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc01.aar\e3128a883db348a4814f0bd2486e87c5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\9cc973c3cf9559bdbdf7c10e7cde61e0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\9cc973c3cf9559bdbdf7c10e7cde61e0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\b03a143018a8656439eefe4eb7b68582\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\b03a143018a8656439eefe4eb7b68582\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fd158bc9f1526da54bde8469d7ff14b9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\fd158bc9f1526da54bde8469d7ff14b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc01.aar\ab13b52f52d81a2ce135b50de8b6a477\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc01] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc01.aar\ab13b52f52d81a2ce135b50de8b6a477\AndroidManifest.xml:20:5-44
+INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml
+INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml
+		INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml
+		INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Seyoung\Desktop\Whisperer_\app\src\main\AndroidManifest.xml
+		INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml
+		ADDED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml
+		INJECTED from D:\work_android\Whisperer\app\src\main\AndroidManifest.xml
+service#com.indooratlas.android.sdk.IALocationService
+ADDED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:31:9-33:49
+	android:label
+		ADDED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:33:13-46
+	android:name
+		ADDED from [com.indooratlas.android:indooratlas-android-sdk:2.8.2] C:\Users\gjwls\.gradle\caches\transforms-1\files-1.1\indooratlas-android-sdk-2.8.2.aar\478c514191bb4fda5da3866de033b9c6\AndroidManifest.xml:32:13-73
