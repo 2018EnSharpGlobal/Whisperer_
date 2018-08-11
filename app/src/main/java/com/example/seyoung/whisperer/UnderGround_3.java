@@ -25,22 +25,22 @@ public class UnderGround_3 extends SubWayMap {
 
     @Override
     public Node better_Means_Transportation(Node initalNode, Node finalNode) {
-        Navigation aStar = new Navigation(underGround_rows,underGround_cols,initalNode,elevator_1);
-        for(Node node : aStar.findPath()){
-            checkElevator += node.getF();
-        }
-        aStar = new Navigation(underGround_rows,underGround_cols,elevator_1,finalNode);
-        for(Node node : aStar.findPath()){
-            checkElevator += node.getF();
-        }
-        aStar = new Navigation(underGround_rows,underGround_cols,initalNode,stair_1);
-        for(Node node : aStar.findPath()){
-            checkStair += node.getF();
-        }
-        aStar = new Navigation(underGround_rows,underGround_cols,stair_1,finalNode);
-        for(Node node : aStar.findPath()){
-            checkStair += node.getF();
-        }
+//        Navigation aStar = new Navigation(underGround_rows,underGround_cols,initalNode,elevator_1);
+//        for(Node node : aStar.findPath()){
+//            checkElevator += node.getF();
+//        }
+//        aStar = new Navigation(underGround_rows,underGround_cols,elevator_1,finalNode);
+//        for(Node node : aStar.findPath()){
+//            checkElevator += node.getF();
+//        }
+//        aStar = new Navigation(underGround_rows,underGround_cols,initalNode,stair_1);
+//        for(Node node : aStar.findPath()){
+//            checkStair += node.getF();
+//        }
+//        aStar = new Navigation(underGround_rows,underGround_cols,stair_1,finalNode);
+//        for(Node node : aStar.findPath()){
+//            checkStair += node.getF();
+//        }
 
         if(checkStair >= checkElevator){
             return elevator_1;

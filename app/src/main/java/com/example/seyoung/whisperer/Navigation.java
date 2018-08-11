@@ -13,6 +13,9 @@ public class Navigation {
     private int hvCost;
     private int diagonalCost;
 
+    //지도의 층
+    private int floor;
+
     //지도 노드 배열
     private Node[][] searchArea;
 
@@ -25,7 +28,7 @@ public class Navigation {
     private Node finalNode;
 
     //생성자 함수
-    public Navigation(int rows, int cols, Node initialNode, Node finalNode, int hvCost, int diagonalCost) {
+    public Navigation(int rows, int cols, Node initialNode, Node finalNode, int hvCost, int diagonalCost,int floor) {
         this.hvCost = hvCost;
         this.diagonalCost = diagonalCost;
 
@@ -34,6 +37,9 @@ public class Navigation {
 
         //지도 그리기
         this.searchArea = new Node[rows][cols];
+
+        //층 수 삽입
+        this.floor =floor;
 
         //열린 목록을 우선순위큐 리스트로 만듦
         this.openList = new PriorityQueue<Node>(new Comparator<Node>() {
@@ -49,8 +55,8 @@ public class Navigation {
     }
 
     //생성사 오버로딩
-    public Navigation(int rows, int cols, Node initialNode, Node finalNode) {
-        this(rows, cols, initialNode, finalNode, DEFAULT_HV_COST, DEFAULT_DIAGONAL_COST);
+    public Navigation(int rows, int cols, Node initialNode, Node finalNode,int floor) {
+        this(rows, cols, initialNode, finalNode, DEFAULT_HV_COST, DEFAULT_DIAGONAL_COST,floor);
     }
 
     //노드로 지도 그리기
@@ -60,6 +66,7 @@ public class Navigation {
                 Node node = new Node(i, j);
                 node.calculateHeuristic(getFinalNode());
                 this.searchArea[i][j] = node;
+                this.searchArea[i][j].setFloor(floor);
             }
         }
     }
@@ -183,42 +190,6 @@ public class Navigation {
                     getOpenList().add(adjacentNode);
                 }
             }
-        }
-    }
-
-    //층 수가 같은지 확인하는 함수
-    public boolean isEqualFloor(Node initialNode,Node finalNode){
-        if(initialNode.getFloor() == finalNode.getFloor())
-            return true;
-        else
-            return false;
-    }
-
-
-    //층 수 체크하는 함수
-    public void checkFloor(Node startNode,Node finalNode){
-        if(startNode.getFloor() != finalNode.getFloor()){
-            if(startNode.getFloor() == -1 && finalNode.getFloor() == -2){
-
-            }
-            else if(startNode.getFloor() == -1 && finalNode.getFloor() == -3){
-
-            }
-            else if(startNode.getFloor() == -2 && finalNode.getFloor() == -1){
-
-            }
-            else if(startNode.getFloor() == -2 && finalNode.getFloor() == -3){
-
-            }
-            else if(startNode.getFloor() == -3 && finalNode.getFloor() == -1){
-
-            }
-            else if(startNode.getFloor() == -3 && finalNode.getFloor() == -2){
-
-            }
-        }
-        else{
-
         }
     }
 

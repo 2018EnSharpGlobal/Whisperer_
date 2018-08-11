@@ -60,58 +60,62 @@ public class UnderGround_1 extends SubWayMap {
         int find_means_Transportation;
 
         //엘레베이터
-        Navigation aStar = new Navigation(underGround_rows,underGround_cols,initalNode,elevator_1);
-        aStar = new Navigation(underGround_rows,underGround_cols,initalNode,elevator_1);
-        for(Node node : aStar.findPath()){
+        Navigation find_path = new Navigation(underGround_rows,underGround_cols,initalNode,elevator_1,MainActivity.B1);
+
+        for(Node node : find_path.findPath()){
             check_means_Transportation[0]  += node.getF();
         }
-        aStar = new Navigation(underGround_rows,underGround_cols,elevator_1,finalNode);
-        for(Node node : aStar.findPath()){
+        find_path.setInitialNode(elevator_1);
+        find_path.setInitialNode(finalNode);
+        for(Node node : find_path.findPath()){
             check_means_Transportation[0] += node.getF();
         }
 
-//        aStar = new AStar(underGround_rows,underGround_cols,initalNode,elevator_2);
-//        for(Node node : aStar.findPath()){
+//        find_path = new Navigation(underGround_rows,underGround_cols,initalNode,elevator_2);
+//        for(Node node : find_path.findPath()){
 //            check_means_Transportation[1] += node.getF();
 //        }
-//        aStar = new AStar(underGround_rows,underGround_cols,elevator_2,finalNode);
-//        for(Node node : aStar.findPath()){
+//        find_path = new Navigation(underGround_rows,underGround_cols,elevator_2,finalNode);
+//        for(Node node : find_path.findPath()){
 //            check_means_Transportation[1] += node.getF();
 //        }
 //
-//        aStar = new AStar(underGround_rows,underGround_cols,initalNode,elevator_3);
-//        for(Node node : aStar.findPath()){
+//        find_path = new Navigation(underGround_rows,underGround_cols,initalNode,elevator_3);
+//        for(Node node : find_path.findPath()){
 //            check_means_Transportation[2] += node.getF();
 //        }
-//        aStar = new AStar(underGround_rows,underGround_cols,elevator_3,finalNode);
-//        for(Node node : aStar.findPath()){
+//        find_path = new Navigation(underGround_rows,underGround_cols,elevator_3,finalNode);
+//        for(Node node : find_path.findPath()){
 //            check_means_Transportation[2] += node.getF();
 //        }
 //
-//        aStar = new AStar(underGround_rows,underGround_cols,initalNode,elevator_4);
-//        for(Node node : aStar.findPath()){
+//        find_path = new Navigation(underGround_rows,underGround_cols,initalNode,elevator_4);
+//        for(Node node : find_path.findPath()){
 //            check_means_Transportation[3] += node.getF();
 //        }
-//        aStar = new AStar(underGround_rows,underGround_cols,elevator_4,finalNode);
-//        for(Node node : aStar.findPath()){
+//        find_path = new Navigation(underGround_rows,underGround_cols,elevator_4,finalNode);
+//        for(Node node : find_path.findPath()){
 //            check_means_Transportation[3] += node.getF();
 //        }
 
         //계단
-        aStar = new Navigation(underGround_rows,underGround_cols,initalNode,stair_1);
-        for(Node node : aStar.findPath()){
+
+        find_path.setInitialNode(initalNode);
+        find_path.setFinalNode(stair_1);
+        for(Node node : find_path.findPath()){
             check_means_Transportation[4]  += node.getF();
         }
-        aStar = new Navigation(underGround_rows,underGround_cols,stair_1,finalNode);
-        for(Node node : aStar.findPath()){
+        find_path.setInitialNode(stair_1);
+        find_path.setFinalNode(finalNode);
+        for(Node node : find_path.findPath()){
             check_means_Transportation[4] += node.getF();
         }
-//        aStar = new AStar(underGround_rows,underGround_cols,initalNode,stair_2);
-//        for(Node node : aStar.findPath()){
+//        find_path = new Navigation(underGround_rows,underGround_cols,initalNode,stair_2);
+//        for(Node node : find_path.findPath()){
 //            check_means_Transportation[5] += node.getF();
 //        }
-//        aStar = new AStar(underGround_rows,underGround_cols,stair_2,finalNode);
-//        for(Node node : aStar.findPath()){
+//        find_path = new Navigation(underGround_rows,underGround_cols,stair_2,finalNode);
+//        for(Node node : find_path.findPath()){
 //            check_means_Transportation[5] += node.getF();
 //        }
 
@@ -142,85 +146,85 @@ public class UnderGround_1 extends SubWayMap {
         }
     }
 
-    @Override
-    public Node stair_Means_Transportation(Node initalNode, Node finalNode) {
-        Navigation aStar = new Navigation(underGround_rows,underGround_cols,initalNode,stair_1);
-        for(Node node : aStar.findPath()){
-            check_Stair[0]  += node.getF();
-        }
-        aStar = new Navigation(underGround_rows,underGround_cols,stair_1,finalNode);
-        for(Node node : aStar.findPath()){
-            check_Stair[0] += node.getF();
-        }
-        aStar = new Navigation(underGround_rows,underGround_cols,initalNode,stair_2);
-        for(Node node : aStar.findPath()){
-            check_Stair[1] += node.getF();
-        }
-        aStar = new Navigation(underGround_rows,underGround_cols,stair_2,finalNode);
-        for(Node node : aStar.findPath()){
-            check_Stair[1] += node.getF();
-        }
+//    @Override
+//    public Node stair_Means_Transportation(Node initalNode, Node finalNode) {
+//        Navigation find_path = new Navigation(underGround_rows,underGround_cols,initalNode,stair_1);
+//        for(Node node : find_path.findPath()){
+//            check_Stair[0]  += node.getF();
+//        }
+//        find_path = new Navigation(underGround_rows,underGround_cols,stair_1,finalNode);
+//        for(Node node : find_path.findPath()){
+//            check_Stair[0] += node.getF();
+//        }
+//        find_path = new Navigation(underGround_rows,underGround_cols,initalNode,stair_2);
+//        for(Node node : find_path.findPath()){
+//            check_Stair[1] += node.getF();
+//        }
+//        find_path = new Navigation(underGround_rows,underGround_cols,stair_2,finalNode);
+//        for(Node node : find_path.findPath()){
+//            check_Stair[1] += node.getF();
+//        }
+//
+//        if(check_Stair[0] >= check_Stair[1]){
+//            return stair_1;
+//        }
+//        else{
+//            return stair_2;
+//        }
+//    }
 
-        if(check_Stair[0] >= check_Stair[1]){
-            return stair_1;
-        }
-        else{
-            return stair_2;
-        }
-    }
-
-    @Override
-    public Node elevator_Means_Transportation(Node initalNode, Node finalNode) {
-        int find_elevator;
-        Navigation aStar = new Navigation(underGround_rows,underGround_cols,initalNode,elevator_1);
-        for(Node node : aStar.findPath()){
-            check_Elevator[0]  += node.getF();
-        }
-        aStar = new Navigation(underGround_rows,underGround_cols,elevator_1,finalNode);
-        for(Node node : aStar.findPath()){
-            check_Elevator[0] += node.getF();
-        }
-
-        aStar = new Navigation(underGround_rows,underGround_cols,initalNode,elevator_2);
-        for(Node node : aStar.findPath()){
-            check_Elevator[1] += node.getF();
-        }
-        aStar = new Navigation(underGround_rows,underGround_cols,elevator_2,finalNode);
-        for(Node node : aStar.findPath()){
-            check_Elevator[1] += node.getF();
-        }
-
-        aStar = new Navigation(underGround_rows,underGround_cols,initalNode,elevator_3);
-        for(Node node : aStar.findPath()){
-            check_Elevator[2] += node.getF();
-        }
-        aStar = new Navigation(underGround_rows,underGround_cols,elevator_3,finalNode);
-        for(Node node : aStar.findPath()){
-            check_Elevator[2] += node.getF();
-        }
-
-        aStar = new Navigation(underGround_rows,underGround_cols,initalNode,elevator_4);
-        for(Node node : aStar.findPath()){
-            check_Elevator[3] += node.getF();
-        }
-        aStar = new Navigation(underGround_rows,underGround_cols,elevator_4,finalNode);
-        for(Node node : aStar.findPath()){
-            check_Elevator[3] += node.getF();
-        }
-
-        find_elevator = compare_Minimum(check_Elevator);
-
-        if(find_elevator==0){
-            return elevator_1;
-        }
-        else if(find_elevator == 1){
-            return elevator_2;
-        }
-        else if(find_elevator == 2){
-            return elevator_3;
-        }
-        else{
-            return elevator_4;
-        }
-    }
+//    @Override
+//    public Node elevator_Means_Transportation(Node initalNode, Node finalNode) {
+//        int find_elevator;
+//        Navigation find_path = new Navigation(underGround_rows,underGround_cols,initalNode,elevator_1);
+//        for(Node node : find_path.findPath()){
+//            check_Elevator[0]  += node.getF();
+//        }
+//        find_path = new Navigation(underGround_rows,underGround_cols,elevator_1,finalNode);
+//        for(Node node : find_path.findPath()){
+//            check_Elevator[0] += node.getF();
+//        }
+//
+//        find_path = new Navigation(underGround_rows,underGround_cols,initalNode,elevator_2);
+//        for(Node node : find_path.findPath()){
+//            check_Elevator[1] += node.getF();
+//        }
+//        find_path = new Navigation(underGround_rows,underGround_cols,elevator_2,finalNode);
+//        for(Node node : find_path.findPath()){
+//            check_Elevator[1] += node.getF();
+//        }
+//
+//        find_path = new Navigation(underGround_rows,underGround_cols,initalNode,elevator_3);
+//        for(Node node : find_path.findPath()){
+//            check_Elevator[2] += node.getF();
+//        }
+//        find_path = new Navigation(underGround_rows,underGround_cols,elevator_3,finalNode);
+//        for(Node node : find_path.findPath()){
+//            check_Elevator[2] += node.getF();
+//        }
+//
+//        find_path = new Navigation(underGround_rows,underGround_cols,initalNode,elevator_4);
+//        for(Node node : find_path.findPath()){
+//            check_Elevator[3] += node.getF();
+//        }
+//        find_path = new Navigation(underGround_rows,underGround_cols,elevator_4,finalNode);
+//        for(Node node : find_path.findPath()){
+//            check_Elevator[3] += node.getF();
+//        }
+//
+//        find_elevator = compare_Minimum(check_Elevator);
+//
+//        if(find_elevator==0){
+//            return elevator_1;
+//        }
+//        else if(find_elevator == 1){
+//            return elevator_2;
+//        }
+//        else if(find_elevator == 2){
+//            return elevator_3;
+//        }
+//        else{
+//            return elevator_4;
+//        }
+//    }
 }
