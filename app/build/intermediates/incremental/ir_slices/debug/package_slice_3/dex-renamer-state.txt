@@ -1,4 +1,0 @@
-#Sat Aug 11 02:49:32 KST 2018
-base.0=C\:\\Users\\Seyoung\\Desktop\\Whisperer_\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
-path.0=classes.dex
-renamed.0=classes.dex
